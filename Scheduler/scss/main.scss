@@ -1,0 +1,22 @@
+$color1: #012F41;
+$color2: #0A4156;
+$color3: #27586B;
+$color4: #4D7280;
+$color5: #7E8E95;
+
+body { 
+    margin: 0;
+    background-color: white;
+}
+.body {
+    font-weight: 400;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.project-header{
+    background-color: $color1;
+    color: white;
+    padding: 5px;
+}

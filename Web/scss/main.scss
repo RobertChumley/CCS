@@ -1,0 +1,161 @@
+$color1: #012F41;
+$color2: #0A4156;
+$color3: #27586B;
+$color4: #4D7280;
+$color5: #7E8E95;
+
+body { 
+    margin: 0;
+    background-color: white;
+}
+.body {
+    font-weight: 400;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+.head {
+    margin:0;
+    padding:0;
+     .top-nav{
+         background-color: #333;
+         padding: 5px;
+         font-size: 1.1em;
+         text-align: right;
+         margin:0;
+         border-bottom: 1px solid $color2;
+         color: #EEE;
+        li{
+            display: inline;
+            margin-right: 8px;
+            margin-left: 8px;  
+            a{
+                color: #EEE;
+            }
+        }
+     }
+}
+.clear{   
+    clear:both;
+}
+a{
+    text-decoration: none;
+}
+.content {
+    margin:auto;
+    .sub-head{
+        background-color: $color1;
+        clear:both;
+        .title{
+            line-height: 1em;
+            color: white;
+            padding: 3px 20px;
+            float:left;
+            
+        }
+        .sub-nav{
+            float:right;
+            margin:30px;
+            font-size: 1.2em;
+            vertical-align: middle;
+            margin-right: 50px;
+            ul{
+                display: inline;
+                li{
+                    display:inline;
+                    margin-right: 35px;
+                    a{
+                        color:white;
+                    }
+                }
+            }
+        }
+    }
+    
+    .main-content-area{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .alt-content-area{
+        background-color: #f3f3f3;
+        border-top: 1px solid #e2e2e2;
+        height: 300px;
+    }
+    .content-pannel{
+        width: 98%;
+        max-width: 1000px;
+        margin: auto;
+        margin-top: 10px;
+        background-color: white;
+        border: 1px solid #BBB;
+        .text-frame{
+            margin: 10px;
+            h3{
+              color:#a4d095;
+            }
+            li{
+                list-style: none;
+                line-height: 1.5em;
+            }
+        }
+    }
+    .advantage-panel{
+        width:995px;
+        vertical-align: middle;
+        margin:auto;
+        h4{
+            text-align: center;
+            color: #a4d095;
+        }
+        li{
+            list-style:circle;
+        }
+        
+        .contact-area{
+            text-align: center;
+        }
+        
+        .advantage-panel-left{
+            margin-top: 15px;
+            float:left;
+            width:330px;
+            background-color: #EEE;
+            border: 1px solid $color4;
+            color: $color3;
+        }
+        .advantage-panel-center{
+            border-radius: 5px;
+            width:328px;
+            height: 250px;
+            float:left;
+            border: 1px solid $color3;
+            color: $color3;
+        }
+        .advantage-panel-right{
+            margin-top: 15px;
+            float:left;
+            width:330px;
+            background-color: #EEE;
+            border: 1px solid $color4;
+            color: $color3;
+        }
+    }
+}
+.site-button{
+    border-radius: 3px;
+    background-color:$color2;
+    padding:5px;
+    color:  white;
+    margin: 5px;
+}
+.footer-area{
+    background-color: $color1;
+    border-top: 2px solid $color3;
+    height: 100px;
+    .address{
+        margin-top: 5px;
+        padding-top: 5px;
+        color: #EEE;
+    }
+}
