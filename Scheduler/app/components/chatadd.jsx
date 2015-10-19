@@ -1,5 +1,6 @@
 var React = require('react');
 var action = require('./../actions/chatitemaddaction.js');
+
 module.exports = React.createClass({
     getInitialState: function(){
         return {input:""};
@@ -9,7 +10,6 @@ module.exports = React.createClass({
     },
     addItem:function(e){
         e.preventDefault();
-        //console.log("Adding item",this.state.input);
         action.add({name: this.state.input});
         this.setState({
            input:'' 
